@@ -4275,3 +4275,26 @@ border-radius:30px;
 z-index:999999;
 
 }
+.search-box{
+
+display:flex !important;
+
+position:fixed;
+
+top:100px;
+
+right:50%;
+
+transform:translateX(50%);
+
+background:#050505;
+
+border:1px solid #d4af37;
+
+padding:15px 20px;
+
+border-radius:30px;
+
+z-index:999999;
+
+}
