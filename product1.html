@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>NOIRÉ | Product</title>
+
+<link rel="stylesheet" href="style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+NOIRÉ
+</div>
+
+<a href="index.html">
+برگشت به فروشگاه
+</a>
+
+</header>
+
+
+
+<section class="product-page">
+
+
+<div class="product-image">
+
+<img src="images/product1.jpg">
+
+</div>
+
+
+
+<div class="product-info">
+
+
+<h1>
+Black Luxury Suit
+</h1>
+
+
+<p>
+یک استایل لوکس و مدرن برای افراد خاص
+</p>
+
+
+<h2>
+2,900,000 تومان
+</h2>
+
+
+<label>
+انتخاب سایز:
+</label>
+
+
+<select>
+
+<option>M</option>
+
+<option>L</option>
+
+<option>XL</option>
+
+</select>
+
+
+<button class="product-buy">
+افزودن به سبد خرید
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<section class="related-products">
+
+
+<h2>
+محصولات مشابه
+</h2>
+
+
+
+<div class="related-box">
+
+
+
+<div class="related-card">
+
+<h3>
+Midnight Premium Coat
+</h3>
+
+<p>
+5,900,000 تومان
+</p>
+
+<a href="product2.html">
+
+<button>
+مشاهده
+</button>
+
+</a>
+
+</div>
+
+
+
+
+<div class="related-card">
+
+
+<h3>
+Royal Luxury Collection
+</h3>
+
+
+<p>
+7,500,000 تومان
+</p>
+
+
+<a href="product3.html">
+
+<button>
+مشاهده
+</button>
+
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<script>
+
+document.querySelector(".product-buy").onclick = function(){
+
+
+let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
+
+
+let product = {
+
+name:"Black Luxury Suit",
+
+price:2900000,
+
+quantity:1
+
+};
+
+
+
+let existing = cart.find(item => item.name === product.name);
+
+
+
+if(existing){
+
+existing.quantity++;
+
+}else{
+
+cart.push(product);
+
+}
+
+
+
+sessionStorage.setItem("cart", JSON.stringify(cart));
+
+
+alert("محصول به سبد خرید اضافه شد ✅");
+
+
+};
+
+
+
+</script>
+
+
+
+</body>
+
+</html>
