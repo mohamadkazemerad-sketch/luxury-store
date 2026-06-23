@@ -3550,3 +3550,7 @@ visibility:hidden;
 .products h2 {
     margin-top: 10px !important;
 }
+
+.hero {
+    min-height: 70vh !important;
+}
