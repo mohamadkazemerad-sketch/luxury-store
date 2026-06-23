@@ -3685,3 +3685,14 @@ header {
 nav {
     gap: 20px;
 }
+
+.search-icon {
+    font-size: 22px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.search-icon:hover {
+    color: #c9a227;
+    transform: scale(1.1);
+}
