@@ -3673,3 +3673,15 @@ header {
 .logo:hover {
     color: #c9a227;
 }
+
+header {
+    padding: 12px 30px;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav {
+    gap: 20px;
+}
