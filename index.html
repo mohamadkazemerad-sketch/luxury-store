@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NOIRÉ | Luxury Fashion</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    
+    <div class="logo">
+NOIRÉ
+<div class="logo-sub">PREMIUM COLLECTION</div>
+</div>
+
+    <nav>
+       <a href="#products">محصولات</a>
+<a href="#about">درباره ما</a>
+<a href="#contact">تماس</a>
+    </nav>
+
+    <div class="cart">
+🛒 <span id="cart-count">0</span>
+</div>
+
+<div class="search-box">
+
+<input 
+type="text" 
+id="searchInput" 
+placeholder="جستجوی محصول...">
+
+<button onclick="searchProduct()">
+جستجو
+</button>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>
+            NOIRÉ
+            <br>
+            استایل لوکس،
+            <br>
+            انتخاب خاص
+        </h1>
+
+        <p>
+            تجربه‌ای متفاوت از مد، ظرافت و کیفیت
+            <br>
+            جدیدترین کالکشن لباس‌های لوکس
+        </p>
+
+        <button>
+            مشاهده کالکشن
+        </button>
+
+    </div>
+
+</section>
+
+<section class="products" id="products">
+
+    <h2>کالکشن جدید</h2>
+
+    <div class="product-box">
+
+
+        <div class="card">
+
+            <img src="images/product1.jpg">
+
+            <div class="badge">
+                NEW
+            </div>
+
+            <h3>Black Luxury Suit</h3>
+
+            <p>استایل رسمی و لوکس</p>
+
+            <div class="price">
+
+<span class="old-price">
+3,500,000 تومان
+</span>
+
+<span class="new-price">
+2,900,000 تومان
+</span>
+
+</div>
+
+            <a href="product1.html">
+    <button>مشاهده محصول</button>
+</a>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <img src="images/product2.jpg">
+
+            <div class="badge">
+                NEW
+            </div>
+
+            <h3>Classic Style</h3>
+
+            <p>طراحی مدرن مردانه</p>
+
+            <div class="price">
+
+<span class="old-price">
+7,000,000 تومان
+</span>
+
+<span class="new-price">
+5,900,000 تومان
+</span>
+
+</div>
+
+            <a href="product2.html">
+    <button>مشاهده محصول</button>
+</a>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <img src="images/product3.jpg">
+
+            <div class="badge">
+                NEW
+            </div>
+
+            <h3>Premium Collection</h3>
+
+            <p>انتخاب خاص برای شما</p>
+
+            <div class="price">
+
+<span class="old-price">
+8,600,000 تومان
+</span>
+
+<span class="new-price">
+7,500,000 تومان
+</span>
+
+</div>
+
+            <a href="product3.html">
+    <button>مشاهده محصول</button>
+</a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+<h2>درباره NOIRÉ</h2>
+
+<p>
+NOIRÉ یک برند لباس لوکس با تمرکز روی طراحی مدرن،
+سادگی و استایل خاص است.
+</p>
+
+</section>
+
+<section class="reviews">
+
+<h2>نظرات مشتریان</h2>
+
+
+<div class="review-box">
+
+
+<div class="review-card">
+
+<h3>علی</h3>
+
+<p>
+کیفیت لباس عالی بود، خیلی شیک و خاص.
+</p>
+
+</div>
+
+
+
+<div class="review-card">
+
+<h3>امیر</h3>
+
+<p>
+ارسال سریع و برخورد خیلی خوب.
+</p>
+
+</div>
+
+
+
+<div class="review-card">
+
+<h3>مهدی</h3>
+
+<p>
+استایل لباس دقیقاً مثل چیزی بود که می‌خواستم.
+</p>
+
+</div>
+
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>تماس با ما</h2>
+
+<p>
+برای سفارش و ارتباط با ما تماس بگیرید
+</p>
+
+<button>
+تماس
+</button>
+
+</section>
+
+<footer>
+
+    <div class="footer-logo">
+        NOIRÉ
+    </div>
+
+    <p>
+        Luxury Fashion | Modern Style
+    </p>
+
+    <span>
+        © 2026 NOIRÉ
+    </span>
+
+</footer>
+
+<div class="cart-box" id="cart-box">
+
+    <button id="checkout">
+        ثبت سفارش
+    </button>
+
+    <div class="order-box" id="order-box">
+
+<h3>ثبت سفارش</h3>
+
+<input type="text" id="name" placeholder="نام شما">
+
+<input type="text" id="phone" placeholder="شماره تماس">
+
+<input type="text" id="address" placeholder="آدرس">
+
+<button id="send-order">
+ارسال سفارش
+</button>
+
+<button id="back-cart">
+    بازگشت به سبد خرید
+</button>
+
+</div>
+
+    <h3>سبد خرید</h3>
+
+    <ul id="cart-items"></ul>
+
+    <p id="total-price">
+مجموع: 0 تومان
+</p>
+
+<button id="clear-cart">
+    پاک کردن سبد
+</button>
+
+    <button id="close-cart">
+        بستن
+    </button>
+
+</div>
+
+<script>
+console.log(localStorage.getItem("cart"));
+</script>
+
+<script src="script.js"></script>
+
+<script>
+
+function searchProduct(){
+
+let value = document.getElementById("searchInput").value.toLowerCase();
+
+
+if(value.includes("black") || value.includes("suit")){
+
+window.location="product1.html";
+
+}
+
+else if(value.includes("coat")){
+
+window.location="product2.html";
+
+}
+
+else if(value.includes("royal")){
+
+window.location="product3.html";
+
+}
+
+else{
+
+alert("محصولی پیدا نشد");
+
+}
+
+}
+
+</script>
+
+<div class="loader">
+
+<h1>NOIRÉ</h1>
+
+</div>
+
+</body>
+
+</html>
