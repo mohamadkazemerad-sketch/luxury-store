@@ -3582,3 +3582,19 @@ nav a::after {
 nav a:hover::after {
     width:100%;
 }
+
+.search-box {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    height: 28px;
+    padding: 5px 10px;
+}
+
+.search-box button {
+    height: 28px;
+    padding: 0 12px;
+}
