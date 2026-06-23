@@ -3538,3 +3538,15 @@ visibility:hidden;
 .products h2 {
     margin-top: 20px;
 }
+
+.hero-text h1 {
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.products h2 {
+    margin-top: 10px;
+}
