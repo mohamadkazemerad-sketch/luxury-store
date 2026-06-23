@@ -4109,3 +4109,21 @@ to{
     border-radius:20px;
     cursor:pointer;
 }
+
+.search-icon span{
+
+color:#d4af37;
+font-size:32px;
+cursor:pointer;
+text-shadow:0 0 15px #d4af37;
+transition:.3s;
+
+}
+
+
+.search-icon span:hover{
+
+transform:scale(1.2);
+color:white;
+
+}
