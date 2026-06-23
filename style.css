@@ -3737,3 +3737,32 @@ nav {
 .search-popup button {
     padding:8px;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    order: 1;
+}
+
+nav {
+    order: 2;
+}
+
+.search-icon {
+    order: 3;
+}
+
+.cart {
+    order: 4;
+}
