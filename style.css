@@ -3717,3 +3717,25 @@ nav {
 }
 
 }
+
+@media (max-width:768px){
+
+header {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.search-icon {
+    margin-left: auto;
+}
+
+.cart {
+    margin-right: auto;
+}
+
+}
