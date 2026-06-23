@@ -3701,18 +3701,23 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.search-icon {
-    order: 1;
+    flex-direction: row;
 }
 
 .logo {
     order: 2;
 }
 
+nav {
+    order: 1;
+}
+
 .cart {
     order: 3;
+}
+
+.search-icon {
+    order: 4;
 }
 
 .search-popup {
