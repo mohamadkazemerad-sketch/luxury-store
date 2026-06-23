@@ -4142,3 +4142,37 @@ header a{
     margin-right:20px;
     white-space:nowrap;
 }
+
+.product-page header{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:20px 50px;
+
+}
+
+
+.product-page header a{
+
+color:#d4af37;
+text-decoration:none;
+font-size:18px;
+
+}
+
+header a{
+
+color:#d4af37;
+text-decoration:none;
+margin-right:30px;
+font-size:18px;
+
+}
+
+
+header a:hover{
+
+color:white;
+
+}
