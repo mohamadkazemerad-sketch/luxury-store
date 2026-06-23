@@ -3739,3 +3739,21 @@ header {
 }
 
 }
+
+@media (max-width:768px){
+
+.logo {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.search-icon {
+    margin-left:15px;
+}
+
+.cart {
+    margin-right:15px;
+}
+
+}
