@@ -270,3 +270,40 @@ document.getElementById("back-cart").onclick = function(){
 document.getElementById("order-box").style.display="none";
 
 };
+
+function openSearch(){
+
+let search = prompt("نام محصول را وارد کنید:");
+
+if(search){
+
+search = search.toLowerCase();
+
+
+if(search.includes("black") || search.includes("suit")){
+
+window.location="product1.html";
+
+}
+
+else if(search.includes("coat") || search.includes("classic")){
+
+window.location="product2.html";
+
+}
+
+else if(search.includes("royal") || search.includes("premium")){
+
+window.location="product3.html";
+
+}
+
+else{
+
+alert("محصولی پیدا نشد ❌");
+
+}
+
+}
+
+}
