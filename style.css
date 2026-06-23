@@ -3558,3 +3558,35 @@ visibility:hidden;
 .products {
     padding-top: 10px !important;
 }
+
+.search-box input {
+    height: 30px;
+}
+
+.search-box button {
+    height: 30px;
+}
+
+nav a {
+    position: relative;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #c9a227;
+}
+
+nav a::after {
+    content:"";
+    position:absolute;
+    width:0;
+    height:2px;
+    bottom:-6px;
+    right:0;
+    background:#c9a227;
+    transition:.3s;
+}
+
+nav a:hover::after {
+    width:100%;
+}
