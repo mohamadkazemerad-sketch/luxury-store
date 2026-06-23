@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>NOIRÉ | Product</title>
+
+<link rel="stylesheet" href="style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+NOIRÉ
+</div>
+
+<a href="index.html">
+    برگشت به فروشگاه
+</a>
+
+</header>
+
+<section class="product-page">
+
+
+<img src="images/product2.jpg">
+
+
+<div class="product-info">
+
+
+<h1>
+Midnight Premium Coat
+</h1>
+
+
+<p>
+یک پالتوی شیک و مدرن برای استایل رسمی
+</p>
+
+
+<h2>
+5,900,000 تومان
+</h2>
+
+
+<label>
+انتخاب سایز:
+</label>
+
+<select>
+
+<option>M</option>
+
+<option>L</option>
+
+<option>XL</option>
+
+</select>
+
+
+<button class="product-buy">
+افزودن به سبد خرید
+</button>
+
+
+</div>
+
+
+</section>
+
+<script>
+
+document.querySelector(".product-buy").onclick = function(){
+
+let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
+
+
+let product = {
+    name: "Midnight Premium Coat",
+    price: 5900000
+};
+
+
+let existing = cart.find(item => item.name === product.name);
+
+
+if(existing){
+
+    existing.quantity++;
+
+}else{
+
+    product.quantity = 1;
+
+    cart.push(product);
+
+}
+
+
+sessionStorage.setItem("cart", JSON.stringify(cart));
+
+
+alert("محصول به سبد خرید اضافه شد ✅");
+
+};
+
+</script>
+
+<section class="related-products">
+
+<h2>محصولات مشابه</h2>
+
+<div class="related-box">
+
+<div class="related-card">
+
+<h3>Black Luxury Suit</h3>
+
+<p>2,900,000 تومان</p>
+
+<a href="product1.html">
+<button>مشاهده</button>
+</a>
+
+</div>
+
+
+<div class="related-card">
+
+<h3>Royal Luxury Collection</h3>
+
+<p>7,500,000 تومان</p>
+
+<a href="product3.html">
+<button>مشاهده</button>
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+
+</html>
