@@ -3677,3 +3677,14 @@ header {
     cursor: pointer;
     font-size: 22px;
 }
+
+.search-icon,
+.cart {
+    transition: .3s;
+}
+
+.search-icon:hover,
+.cart:hover {
+    transform: scale(1.15);
+    color: #c9a227;
+}
