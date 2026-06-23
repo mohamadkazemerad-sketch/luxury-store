@@ -3530,3 +3530,11 @@ visibility:hidden;
 .products {
     padding-bottom: 20px;
 }
+
+.hero {
+    padding-bottom: 40px;
+}
+
+.products h2 {
+    margin-top: 20px;
+}
