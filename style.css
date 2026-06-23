@@ -3688,3 +3688,11 @@ header {
     transform: scale(1.15);
     color: #c9a227;
 }
+
+.search-icon {
+    margin-right: auto;
+}
+
+.cart {
+    margin-left: auto;
+}
