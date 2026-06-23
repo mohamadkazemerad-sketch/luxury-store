@@ -3523,3 +3523,10 @@ visibility:hidden;
 .about {
     padding-top: 40px;
 }
+
+.product-box {
+    margin-bottom: 20px;
+}
+.products {
+    padding-bottom: 20px;
+}
