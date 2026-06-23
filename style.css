@@ -4176,3 +4176,23 @@ header a:hover{
 color:white;
 
 }
+
+.search-icon span,
+.cart span{
+
+color:#d4af37;
+font-size:28px;
+cursor:pointer;
+transition:.3s;
+filter:drop-shadow(0 0 8px #d4af37);
+
+}
+
+
+.search-icon span:hover,
+.cart span:hover{
+
+transform:scale(1.15);
+color:white;
+
+}
