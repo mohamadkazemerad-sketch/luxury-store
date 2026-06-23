@@ -3714,3 +3714,21 @@ header {
 .cart {
     order: 3;
 }
+
+.search-popup {
+    display:none;
+    position:absolute;
+    top:70px;
+    right:20px;
+    background:#111;
+    padding:15px;
+    border:1px solid #c9a227;
+}
+
+.search-popup input {
+    padding:8px;
+}
+
+.search-popup button {
+    padding:8px;
+}
