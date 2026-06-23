@@ -3600,3 +3600,36 @@ nav a:hover::after {
     height: 34px;
     padding: 0 15px;
 }
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #c9a227;
+}
+
+
+nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #c9a227;
+    bottom: -8px;
+    right: 0;
+    transition: .3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
