@@ -3659,3 +3659,21 @@ nav a:hover::after {
     top: -10px;
     right: -5px;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+}
+
+.search-icon {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.cart {
+    cursor: pointer;
+    font-size: 22px;
+}
