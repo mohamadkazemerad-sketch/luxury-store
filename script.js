@@ -273,26 +273,29 @@ document.getElementById("order-box").style.display="none";
 
 function openSearch(){
 
-let search = prompt("نام محصول را وارد کنید:");
+document.querySelector("#search-box").style.display="flex";
 
-if(search){
-
-search = search.toLowerCase();
+}
 
 
-if(search.includes("black") || search.includes("suit")){
+function searchProduct(){
+
+let value=document.querySelector("#search-input").value.toLowerCase();
+
+
+if(value.includes("black")){
 
 window.location="product1.html";
 
 }
 
-else if(search.includes("coat") || search.includes("classic")){
+else if(value.includes("classic")){
 
 window.location="product2.html";
 
 }
 
-else if(search.includes("royal") || search.includes("premium")){
+else if(value.includes("premium")){
 
 window.location="product3.html";
 
@@ -301,8 +304,6 @@ window.location="product3.html";
 else{
 
 alert("محصولی پیدا نشد ❌");
-
-}
 
 }
 
