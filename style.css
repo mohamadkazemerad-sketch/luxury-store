@@ -3999,3 +3999,47 @@ opacity:0;
 visibility:hidden;
 
 }
+
+.loader{
+    animation: fadeOut 1.5s ease forwards;
+}
+
+
+@keyframes fadeOut{
+
+0%{
+    opacity:1;
+    visibility:visible;
+}
+
+70%{
+    opacity:1;
+}
+
+100%{
+    opacity:0;
+    visibility:hidden;
+}
+
+}
+
+
+
+body{
+    animation: pageIn 1s ease;
+}
+
+
+@keyframes pageIn{
+
+from{
+    opacity:0;
+    transform:translateY(10px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
+}
