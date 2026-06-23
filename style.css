@@ -4071,3 +4071,41 @@ to{
 }
 
 }
+
+.search-icon{
+    color:#d4af37;
+    font-size:28px;
+    cursor:pointer;
+    transition:.3s;
+    text-shadow:0 0 10px #d4af37;
+}
+
+.search-icon:hover{
+    transform:scale(1.15);
+    color:#fff;
+}
+
+
+.search-box{
+    background:#0a0a0a;
+    border:1px solid #d4af37;
+    padding:10px 15px;
+    border-radius:30px;
+}
+
+
+.search-box input{
+    background:transparent;
+    border:none;
+    outline:none;
+    color:white;
+}
+
+
+.search-box button{
+    background:#d4af37;
+    border:none;
+    padding:8px 15px;
+    border-radius:20px;
+    cursor:pointer;
+}
