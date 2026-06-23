@@ -3540,13 +3540,13 @@ visibility:hidden;
 }
 
 .hero-text h1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px !important;
 }
 
 .hero-text p {
-    margin-bottom: 20px;
+    margin-bottom: 10px !important;
 }
 
 .products h2 {
-    margin-top: 10px;
+    margin-top: 10px !important;
 }
