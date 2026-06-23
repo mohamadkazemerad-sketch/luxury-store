@@ -273,11 +273,7 @@ document.getElementById("order-box").style.display="none";
 
 function openSearch(){
 
-let box = document.querySelector("#search-box");
-
-console.log(box);
-
-box.style.display="flex";
+document.body.style.background="red";
 
 }
 
