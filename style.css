@@ -3920,3 +3920,22 @@ to{
 }
 
 }
+
+.loader{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:#000;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:99999;
+}
+
+.loader h1{
+color:white;
+font-size:55px;
+letter-spacing:10px;
+}
