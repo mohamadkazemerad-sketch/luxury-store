@@ -3559,14 +3559,6 @@ visibility:hidden;
     padding-top: 10px !important;
 }
 
-.search-box input {
-    height: 30px;
-}
-
-.search-box button {
-    height: 30px;
-}
-
 nav a {
     position: relative;
     transition: .3s;
