@@ -3822,3 +3822,50 @@ header {
 }
 
 }
+
+.loader{
+    position:fixed;
+    inset:0;
+    background:#000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:9999;
+    animation:hideLoader 2.5s forwards;
+}
+
+.loader h1{
+    color:white;
+    font-size:50px;
+    letter-spacing:8px;
+    animation:logoLoad 1.5s ease;
+}
+
+
+@keyframes logoLoad{
+
+from{
+    opacity:0;
+    transform:scale(.7);
+}
+
+to{
+    opacity:1;
+    transform:scale(1);
+}
+
+}
+
+
+@keyframes hideLoader{
+
+0%,80%{
+    opacity:1;
+}
+
+100%{
+    opacity:0;
+    visibility:hidden;
+}
+
+}
