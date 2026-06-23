@@ -4298,3 +4298,14 @@ border-radius:30px;
 z-index:999999;
 
 }
+
+.search-box{
+    display:flex !important;
+    position:fixed !important;
+    top:50px !important;
+    left:50% !important;
+    transform:translateX(-50%) !important;
+    background:red !important;
+    padding:30px !important;
+    z-index:9999999 !important;
+}
