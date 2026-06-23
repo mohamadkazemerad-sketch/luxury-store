@@ -3790,3 +3790,35 @@ header {
 }
 
 }
+
+@media (max-width:768px){
+
+header {
+    min-height: 95px !important;
+    position: relative !important;
+}
+
+.logo {
+    position: absolute !important;
+    left: 50% !important;
+    top: 45% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.search-icon {
+    position: absolute !important;
+    right: 25px !important;
+    top: 45% !important;
+}
+
+.cart {
+    position: absolute !important;
+    left: 25px !important;
+    top: 45% !important;
+}
+
+.logo-sub {
+    margin-top: 10px !important;
+}
+
+}
