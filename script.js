@@ -273,7 +273,7 @@ document.getElementById("order-box").style.display="none";
 
 function openSearch(){
 
-alert("محمد تست");
+document.querySelector("#search-box").style.display = "flex";
 
 }
 
