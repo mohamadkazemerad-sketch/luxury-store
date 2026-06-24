@@ -3988,3 +3988,24 @@ box-shadow:0 0 30px rgba(212,175,55,.6);
     height:75px !important;
     font-size:70px !important;
 }
+
+/* برگشت افکت کارت ها */
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow:0 15px 35px rgba(212,175,55,0.35);
+}
+
+
+/* فلش برگشت فروشگاه */
+.back-shop span{
+
+    display:block;
+    width:20px;
+    height:20px;
+
+    border-left:4px solid #d4af37;
+    border-bottom:4px solid #d4af37;
+
+    transform:rotate(45deg);
+
+}
