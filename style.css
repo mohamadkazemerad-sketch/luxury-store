@@ -4041,3 +4041,41 @@ box-shadow:0 0 30px rgba(212,175,55,.6);
     transform:translateY(-10px) !important;
     box-shadow:0 15px 35px rgba(212,175,55,.35) !important;
 }
+
+.product-info{
+    animation: productShow .8s ease;
+}
+
+.product-image{
+    animation: productImage .8s ease;
+}
+
+
+@keyframes productShow{
+
+from{
+    opacity:0;
+    transform:translateX(40px);
+}
+
+to{
+    opacity:1;
+    transform:translateX(0);
+}
+
+}
+
+
+@keyframes productImage{
+
+from{
+    opacity:0;
+    transform:translateX(-40px);
+}
+
+to{
+    opacity:1;
+    transform:translateX(0);
+}
+
+}
