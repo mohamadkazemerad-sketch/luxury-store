@@ -271,13 +271,16 @@ document.getElementById("order-box").style.display="none";
 
 };
 
-function openSearch(){
-
-let box = document.querySelector("#search-box");
-
-box.style.display="flex";
-
 }
+
+function searchProduct(){
+
+let value=document.querySelector("#search-input").value.toLowerCase();
+
+
+if(value.includes("black")){
+
+window.location="product1.html";
 
 function openSearch(){
     alert("محمد تست");
