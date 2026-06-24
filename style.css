@@ -4009,3 +4009,35 @@ box-shadow:0 0 30px rgba(212,175,55,.6);
     transform:rotate(45deg);
 
 }
+.back-shop{
+    display:flex !important;
+    width:60px !important;
+    height:60px !important;
+    align-items:center;
+    justify-content:center;
+    border:1px solid #d4af37;
+    border-radius:50%;
+    color:#d4af37;
+    text-decoration:none;
+    font-size:45px !important;
+    line-height:1;
+}
+
+
+.back-shop:hover{
+    background:#d4af37;
+    color:#111;
+    transform:translateX(-5px);
+}
+
+
+/* افکت کارت */
+.card{
+    transition:.3s ease;
+}
+
+
+.card:hover{
+    transform:translateY(-10px) !important;
+    box-shadow:0 15px 35px rgba(212,175,55,.35) !important;
+}
