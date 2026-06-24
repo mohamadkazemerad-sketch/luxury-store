@@ -3941,27 +3941,33 @@ color:white;
 
 .back-shop{
 
-display:inline-flex;
+display:flex;
 
-align-items:center;
+width:60px;
 
-justify-content:center;
-
-width:45px;
-
-height:45px;
+height:60px;
 
 border:1px solid #d4af37;
 
 border-radius:50%;
 
+align-items:center;
+
+justify-content:center;
+
 color:#d4af37;
 
 text-decoration:none;
 
-font-size:25px;
+font-size:40px;
+
+font-weight:bold;
+
+line-height:1;
 
 transition:.3s;
+
+box-shadow:0 0 15px rgba(212,175,55,.25);
 
 }
 
@@ -3972,8 +3978,8 @@ background:#d4af37;
 
 color:#111;
 
-transform:translateX(-5px);
+transform:translateX(-8px);
 
-box-shadow:0 0 20px rgba(212,175,55,.5);
+box-shadow:0 0 30px rgba(212,175,55,.6);
 
 }
