@@ -3990,3 +3990,17 @@ border-radius:20px;
 cursor:pointer;
 
 }
+
+.search-icon{
+    z-index:999999 !important;
+    position:relative !important;
+    user-select:none;
+}
+
+.search-icon span{
+    pointer-events:none;
+}
+
+.logo{
+    user-select:none;
+}
