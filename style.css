@@ -4004,3 +4004,13 @@ cursor:pointer;
 .logo{
     user-select:none;
 }
+.search-box{
+    display:flex !important;
+    position:fixed !important;
+    top:50% !important;
+    left:50% !important;
+    transform:translate(-50%,-50%) !important;
+    background:red !important;
+    padding:50px !important;
+    z-index:99999999 !important;
+}
