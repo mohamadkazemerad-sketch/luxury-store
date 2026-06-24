@@ -4016,3 +4016,28 @@ cursor:pointer;
     border-radius:30px;
     z-index:999999;
 }
+.search-box{
+
+display:none;
+
+position:fixed;
+
+top:100px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+background:#050505;
+
+border:1px solid #d4af37;
+
+padding:15px 20px;
+
+border-radius:30px;
+
+z-index:999999;
+
+box-shadow:0 0 25px rgba(212,175,55,.4);
+
+}
