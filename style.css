@@ -4041,3 +4041,6 @@ z-index:999999;
 box-shadow:0 0 25px rgba(212,175,55,.4);
 
 }
+.search-box{
+    display:none !important;
+}
