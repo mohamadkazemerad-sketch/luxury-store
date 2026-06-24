@@ -273,7 +273,7 @@ document.getElementById("order-box").style.display="none";
 
 function openSearch(){
 
-document.querySelector("#search-box").style.display = "flex";
+document.querySelector("#search-box").style.display="flex";
 
 }
 
