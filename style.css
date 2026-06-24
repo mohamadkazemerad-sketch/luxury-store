@@ -3939,3 +3939,41 @@ color:white;
     user-select:none;
 }
 
+.back-shop{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+width:45px;
+
+height:45px;
+
+border:1px solid #d4af37;
+
+border-radius:50%;
+
+color:#d4af37;
+
+text-decoration:none;
+
+font-size:25px;
+
+transition:.3s;
+
+}
+
+
+.back-shop:hover{
+
+background:#d4af37;
+
+color:#111;
+
+transform:translateX(-5px);
+
+box-shadow:0 0 20px rgba(212,175,55,.5);
+
+}
