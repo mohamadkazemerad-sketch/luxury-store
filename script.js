@@ -271,8 +271,6 @@ document.getElementById("order-box").style.display="none";
 
 };
 
-}
-
 function searchProduct(){
 
 let value=document.querySelector("#search-input").value.toLowerCase();
