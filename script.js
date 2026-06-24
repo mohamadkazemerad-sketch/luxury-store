@@ -271,6 +271,13 @@ document.getElementById("order-box").style.display="none";
 
 };
 
+function openSearch(){
+
+alert("محمد تست");
+
+}
+
+
 function searchProduct(){
 
 let value=document.querySelector("#search-input").value.toLowerCase();
@@ -280,8 +287,6 @@ if(value.includes("black")){
 
 window.location="product1.html";
 
-function openSearch(){
-    alert("محمد تست");
 }
 
 else if(value.includes("classic")){
