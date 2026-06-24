@@ -4079,3 +4079,22 @@ to{
 }
 
 }
+
+.back-shop{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:50px;
+    height:50px;
+    border:1px solid #d4af37;
+    border-radius:50%;
+    color:#d4af37 !important;
+    text-decoration:none;
+    font-size:45px;
+    line-height:1;
+}
+
+.back-shop:hover{
+    background:#d4af37;
+    color:#111 !important;
+}
