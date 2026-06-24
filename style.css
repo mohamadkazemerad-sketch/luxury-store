@@ -4098,3 +4098,51 @@ to{
     background:#d4af37;
     color:#111 !important;
 }
+
+.product-info{
+    animation: productFade .7s ease;
+}
+
+.product-image{
+    animation: imageFade .7s ease;
+}
+
+
+@keyframes productFade{
+
+from{
+    opacity:0;
+    transform:translateX(40px);
+}
+
+to{
+    opacity:1;
+    transform:translateX(0);
+}
+
+}
+
+
+@keyframes imageFade{
+
+from{
+    opacity:0;
+    transform:translateX(-40px);
+}
+
+to{
+    opacity:1;
+    transform:translateX(0);
+}
+
+}
+
+
+.product-buy{
+    transition:.3s ease;
+}
+
+.product-buy:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 30px rgba(212,175,55,.5);
+}
